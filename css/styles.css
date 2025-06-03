@@ -1,0 +1,6 @@
+.dropdown-menu.bg-success a:hover,
+.dropdown-menu.bg-success a:active,
+.dropdown-menu.bg-success a:focus {
+    background-color: transparent;
+    color: #fff; /* Puedes ajustar el color del texto al hacer clic */
+}
