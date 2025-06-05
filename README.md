@@ -7,6 +7,6 @@ Gestión de cursos: crear, asignar y administrar cursos y temarios.
 
 Subida y consulta de documentos (como PDFs de temarios y manuales).
 
-Interfaz web HTML/CSS: usa plantillas estáticas con estilos CSS básicos.
+Interfaz web HTML/CSS: usa plantillas estáticas con estilos CSS .
 
 Archivos SQL y PHP: incluye scripts para crear la base de datos (capacitacion.sql) y archivos como bd.php, login.php que permiten conectar y consultar la base de datos.
