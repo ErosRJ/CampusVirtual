@@ -1,14 +1,12 @@
-El repositorio CampusVirtual es un proyecto académico desarrollado como parte de una asignatura de Programación Web. Su objetivo principal es implementar un sistema de gestión de capacitación que permita administrar cursos, usuarios y asignaciones de manera eficiente.
+CampusVirtual es una plataforma web desarrollada en PHP que simula un sistema de gestión educativa o de capacitación. El objetivo principal del sistema es permitir que los usuarios (administradores, maestros y alumnos) puedan gestionar cursos, usuarios, materiales y evaluaciones.
 
- Características principales
-Gestión de usuarios: Incluye funcionalidades para manejar maestros, alumnos y administradores.
+ Características comunes del sistema:
+Login de usuarios (PHP + MySQL): para identificar roles como alumno o docente.
 
-Administración de cursos: Permite la creación y gestión de cursos de capacitación.
+Gestión de cursos: crear, asignar y administrar cursos y temarios.
 
-Inscripciones y asignaciones: Facilita el registro de alumnos en cursos y la asignación de maestros.
+Subida y consulta de documentos (como PDFs de temarios y manuales).
 
-Backend en Node.js: La aplicación está desarrollada utilizando Node.js, con modelos estructurados en JavaScript.
+Interfaz web HTML/CSS: usa plantillas estáticas con estilos CSS básicos.
 
-Almacenamiento local: Utiliza archivos .json como base de datos para el almacenamiento de información.
-
-Configuración mediante .env: La configuración del entorno se maneja a través de un archivo .env, lo que permite una fácil adaptación a diferentes entornos de desarrollo.
+Archivos SQL y PHP: incluye scripts para crear la base de datos (capacitacion.sql) y archivos como bd.php, login.php que permiten conectar y consultar la base de datos.
