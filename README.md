@@ -1,15 +1,14 @@
-# CampusVirtual
-Repositorio de nuestro proyecto de ProgramacionWeb 
-# Sistema de Gestión de Capacitación
+El repositorio CampusVirtual es un proyecto académico desarrollado como parte de una asignatura de Programación Web. Su objetivo principal es implementar un sistema de gestión de capacitación que permita administrar cursos, usuarios y asignaciones de manera eficiente.
 
-Este proyecto es una aplicación Node.js diseñada para gestionar cursos de capacitación, incluyendo usuarios, maestros, alumnos, inscripciones y asignaciones.
+ Características principales
+Gestión de usuarios: Incluye funcionalidades para manejar maestros, alumnos y administradores.
 
-## Características
+Administración de cursos: Permite la creación y gestión de cursos de capacitación.
 
-- Gestión de usuarios, maestros, alumnos y cursos.
-- Registro de inscripciones y asignaciones.
-- API backend estructurada con modelos en JavaScript.
-- Uso de archivos `.json` como base de datos (almacenamiento local).
-- Configuración del entorno mediante archivo `.env`.
+Inscripciones y asignaciones: Facilita el registro de alumnos en cursos y la asignación de maestros.
 
+Backend en Node.js: La aplicación está desarrollada utilizando Node.js, con modelos estructurados en JavaScript.
 
+Almacenamiento local: Utiliza archivos .json como base de datos para el almacenamiento de información.
+
+Configuración mediante .env: La configuración del entorno se maneja a través de un archivo .env, lo que permite una fácil adaptación a diferentes entornos de desarrollo.
